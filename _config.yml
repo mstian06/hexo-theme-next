@@ -14,7 +14,7 @@ keywords: "Hexo, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2013
 
 # Canonical, set a canonical link tag in your hexo, you could use it for your SEO of blog.
 # See: https://support.google.com/webmasters/answer/139066
@@ -29,10 +29,10 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
+  #about: /about
   #commonweal: /404.html
 
 
@@ -59,9 +59,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -141,7 +141,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: /images/avatar.jpg
 
 
 # Table Of Contents in the Sidebar
@@ -201,7 +201,7 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
@@ -214,6 +214,9 @@ auto_excerpt:
   enable: false
   length: 150
 
+
+# Use Lato font
+use_font_lato: true
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -238,10 +241,10 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 8b7d679546ef6f9ec2f472eae6726231
 
 # Duoshuo ShortName
-#duoshuo_shortname:
+duoshuo_shortname: blog4mstian06
 
 # Disqus
 #disqus_shortname:
@@ -253,8 +256,8 @@ mathjax:
 ##  type: button
 
 # Share
-#jiathis:
-#add_this_id:
+jiathis: true
+add_this_id: ra-5707cc88a0b19837
 
 # Share
 #duoshuo_share: true
@@ -265,10 +268,10 @@ mathjax:
 
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-76163693-1
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1258473423
 
 
 # Make duoshuo show UA
@@ -276,8 +279,8 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
+  admin_enable: true
+  user_id: 9082388
   #admin_nickname: Author
 
 
@@ -303,9 +306,9 @@ facebook_comments_plugin:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
+  enable: true
+  app_id: YQBfAzeJ7ppsnKafL9G0xhDv-gzGzoHsz
+  app_key: aMcBYUwfRkO9dp0bH5XznyJi
 
 # Show PV/UV of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
@@ -326,10 +329,10 @@ busuanzi_count:
   page_pv_footer:
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 55491517
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 
 
